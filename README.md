@@ -8,7 +8,7 @@ This course will teach you about **Natural Language Processing (NLP)** using lib
 Let’s do a quick overview of what Natural Language Processing is and why we care about it.  
 # What is NLP?
 NLP is a field of linguistics and Machine Learning focused on understanding everything related to human language.   
-Common NLP tasks:
+**Common NLP tasks:**
 - **Classifying sentences and words:** sentiment analysis, email spam detection, grammatical components and named entities identification...
 - **Generating text content:** text auto-generation, filling masked words...
 - **Extracting an answer from a text:** questions-answers.
