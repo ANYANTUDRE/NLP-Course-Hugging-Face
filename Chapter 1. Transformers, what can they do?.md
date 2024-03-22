@@ -77,3 +77,14 @@ generator( "In this course, we will teach you how to",
             num_return_sequences=2)
 ```
 Output
+
+# Mask filling
+The idea of this task is to fill in the blanks in a given text:
+```python
+from transformers import pipeline
+
+unmasker = pipeline("fill-mask")
+unmasker("This course will teach you all about <mask> models.", top_k=2)
+```
+
+The top_k argument controls how many possibilities you want to be displayed. Note that here the model fills in the special <mask> word, which is often referred to as a mask token. Other mask-filling models might have different mask tokens, so it’s always good to verify the proper mask word when exploring other models. One way to check it is by looking at the mask word used in the widget.
