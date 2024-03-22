@@ -5,10 +5,7 @@ This course will teach you about **Natural Language Processing (NLP)** using lib
 - 🤗 Tokenizers, and
 - 🤗 Accelerate — as well as the Hugging Face Hub. 
 
-# Introduction 
-Before jumping into Transformer models, let’s do a quick overview of what Natural Language Processing is and why we care about it.
-
-
+Let’s do a quick overview of what Natural Language Processing is and why we care about it.  
 # What is NLP?
 NLP is a field of linguistics and Machine Learning focused on understanding everything related to human language.   
 Common NLP tasks:
