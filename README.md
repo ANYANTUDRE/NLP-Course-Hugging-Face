@@ -1,16 +1,16 @@
-# NLP Course - Hugging Face
-This repository contains a shorter version of the [NLP Course on Hugging Face](https://huggingface.co/learn/nlp-course/). It is not designed to replace the original one since I just compiled here the notes and code snippets that I think is more important to retain and get a fresh reminder.
+# NLP Course - Hugging Face 🤗
+This repository contains a shorter version of the [**NLP Course on Hugging Face**](https://huggingface.co/learn/nlp-course/). It is not designed to replace the original one since I just compiled here the notes and code snippets that I think is more important to retain and get a fresh reminder.
 course will teach you about **Natural Language Processing (NLP)** using libraries from the **Hugging Face 🤗** ecosystem :
-- 🤗 Transformers, 
-- 🤗 Datasets,
-- 🤗 Tokenizers, and
-- 🤗 Accelerate — as well as the Hugging Face Hub.
+-  **Transformers**, 
+-  **Datasets**,
+-  **Tokenizers**, and
+-  **Accelerate** — as well as the **Hugging Face Hub**.
 
 
 Let’s do a quick overview of what Natural Language Processing is and why we care about it.  
 # What is NLP?
-NLP is a field of linguistics and Machine Learning focused on understanding everything related to human language.   
-**Common NLP tasks:**
+NLP is a field of linguistics and Machine Learning focused on understanding everything related to human language.    
+##### Common NLP tasks:
 - **Classifying sentences and words:** sentiment analysis, email spam detection, grammatical components and named entities identification...
 - **Generating text content:** text auto-generation, filling masked words...
 - **Extracting an answer from a text:** questions-answers.
@@ -27,6 +27,9 @@ The 🤗 Transformers library was created to provide a single API through which 
 - **Ease of use:** Downloading, loading, and using a state-of-the-art NLP model for inference can be done in just two lines of code.
 - **Flexibility:** At their core, all models are simple PyTorch nn.Module or TensorFlow tf.keras.Model classes and can be handled like any other models in their respective machine learning (ML) frameworks.
 - **Simplicity:** Hardly any abstractions are made across the library. The “All in one file” is a core concept: a model’s forward pass is entirely defined in a single file, so that the code itself is understandable and hackable.
+
+# Course repository structure
+
 
   
 ### 🛑 Disclaimer ❌: 
