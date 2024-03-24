@@ -23,8 +23,13 @@ NLP also tackles complex challenges in **speech recognition** and **computer vis
 Computers don’t process information in the same way as humans. Humans can easily understand a sentence meaning or determine how similar two sentences are. For machine learning (ML) models, such tasks are more difficult. The text needs to be processed in a way that enables the model to learn from it. And because language is complex, we need to think carefully about how this processing must be done.
 There has been a lot of research done on how to represent text, and we will look at some methods in the next chapter.  
 
+# About Hugging Face
+The 🤗 Transformers library was created to provide a single API through which any Transformer model can be loaded, trained, and saved. The library’s main features are:
+- **Ease of use:** Downloading, loading, and using a state-of-the-art NLP model for inference can be done in just two lines of code.
+- **Flexibility:** At their core, all models are simple PyTorch nn.Module or TensorFlow tf.keras.Model classes and can be handled like any other models in their respective machine learning (ML) frameworks.
+- **Simplicity:** Hardly any abstractions are made across the library. The “All in one file” is a core concept: a model’s forward pass is entirely defined in a single file, so that the code itself is understandable and hackable.
 
-
+  
 ### 🛑 Disclaimer ❌: 
 This is not intended to replace the original course at all.
 If you're new to Transformers and Hugging Face, it would be best to refer to the latter.
