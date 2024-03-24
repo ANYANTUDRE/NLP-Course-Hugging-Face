@@ -18,8 +18,7 @@ This course covers **Natural Language Processing (NLP)** using libraries from th
 -  **Tokenizers**, and
 -  **Accelerate** — as well as the **Hugging Face Hub**.
 
-
-Let’s do a quick overview of what Natural Language Processing is and why we care about it.  
+ 
 # What is NLP?
 NLP is a field of linguistics and Machine Learning focused on understanding everything related to human language.    
 ##### Common NLP tasks:
@@ -41,6 +40,8 @@ The 🤗 Transformers library was created to provide a single API through which 
 - **Simplicity:** Hardly any abstractions are made across the library. The “All in one file” is a core concept: a model’s forward pass is entirely defined in a single file, so that the code itself is understandable and hackable.
 
 # Repository structure
+
+The repository directories are organized as follow:  
 
 ## 1. Transformer models
 
@@ -107,7 +108,7 @@ The 🤗 Transformers library was created to provide a single API through which 
 
   
 ### 🛑 Disclaimer ❌: 
-This course is by no means intended to replace the original.
+This is by no means intended to replace the original course.
 If you're new to Transformers and Hugging Face, it would be best to refer to the latter, or at least have some basic knowledge of Deep Learning, particularly NLP.
 The aim is to have a few notes from the course and the code snippets that seem most important to me to keep to hand in each part. Like a sort of cheat sheet to refresh your memory on the most important concepts to remember.
 If you've already taken the original course, or have some basic knowledge of Transformers, you'll no doubt find this useful as a quick refresher on the various concepts.
