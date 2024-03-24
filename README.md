@@ -52,59 +52,6 @@ The repository directories are organized as follow:
 | **3. Encoder, Decoders, Encoder-Decoder models** | Learn more about Encoder, Decoders, Encoder-Decoder models  | [Article](https://github.com/ANYANTUDRE/NLP-Course-Hugging-Face/blob/main/1.%20Transformer%20models/3.Encoder%2C%20Decoders%2C%20Encoder-Decoder%20models.md) | <a href=""> <img src="img/" alt="Open In "></a> |
 
 
-## 2. Using 🤗Transformers
-| Title | Description | Article | Notebook |
-|---------------------------------------|-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1. Transformers, what can they do? | Look at what Transformer models can do and use our first tool from the 🤗 Transformers library: the pipeline() function. | [Article](https://github.com/ANYANTUDRE/NLP-Course-Hugging-Face/blob/main/1.%20Transformer%20models/1.Transformers%2C%20what%20can%20they%20do_.md)| <a href="" alt="Open In "></a> |
-| 2. How do Transformers work? | High-level look at the architecture of Transformer models. | [Article](https://github.com/ANYANTUDRE/NLP-Course-Hugging-Face/blob/main/1.%20Transformer%20models/2.How%20do%20Transformers%20work_.md) | <a href="" alt="Open In "></a> |
-| 3. Encoder, Decoders, Encoder-Decoder models | Learn more about Encoder, Decoders, Encoder-Decoder models  | [Article](https://github.com/ANYANTUDRE/NLP-Course-Hugging-Face/blob/main/1.%20Transformer%20models/3.Encoder%2C%20Decoders%2C%20Encoder-Decoder%20models.md) | <a href=""> <img src="img/" alt="Open In "></a> |
-
-
-
-## 3. Fine-tuning a pretrained model
-
-| Title | Description | Article | Notebook |
-|---------------------------------------|-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1. Transformers, what can they do? | Look at what Transformer models can do and use our first tool from the 🤗 Transformers library: the pipeline() function. | [Article](https://github.com/ANYANTUDRE/NLP-Course-Hugging-Face/blob/main/1.%20Transformer%20models/1.Transformers%2C%20what%20can%20they%20do_.md)| <a href="" alt="Open In "></a> |
-| 2. How do Transformers work? | High-level look at the architecture of Transformer models. | [Article](https://github.com/ANYANTUDRE/NLP-Course-Hugging-Face/blob/main/1.%20Transformer%20models/2.How%20do%20Transformers%20work_.md) | <a href="" alt="Open In "></a> |
-| 3. Encoder, Decoders, Encoder-Decoder models | Learn more about Encoder, Decoders, Encoder-Decoder models  | [Article](https://github.com/ANYANTUDRE/NLP-Course-Hugging-Face/blob/main/1.%20Transformer%20models/3.Encoder%2C%20Decoders%2C%20Encoder-Decoder%20models.md) | <a href=""> <img src="img/" alt="Open In "></a> |
-
-
-## 4. Sharing models and tokenizers
-
-| Title | Description | Article | Notebook |
-|---------------------------------------|-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1. Transformers, what can they do? | Look at what Transformer models can do and use our first tool from the 🤗 Transformers library: the pipeline() function. | [Article](https://github.com/ANYANTUDRE/NLP-Course-Hugging-Face/blob/main/1.%20Transformer%20models/1.Transformers%2C%20what%20can%20they%20do_.md)| <a href="" alt="Open In "></a> |
-| 2. How do Transformers work? | High-level look at the architecture of Transformer models. | [Article](https://github.com/ANYANTUDRE/NLP-Course-Hugging-Face/blob/main/1.%20Transformer%20models/2.How%20do%20Transformers%20work_.md) | <a href="" alt="Open In "></a> |
-| 3. Encoder, Decoders, Encoder-Decoder models | Learn more about Encoder, Decoders, Encoder-Decoder models  | [Article](https://github.com/ANYANTUDRE/NLP-Course-Hugging-Face/blob/main/1.%20Transformer%20models/3.Encoder%2C%20Decoders%2C%20Encoder-Decoder%20models.md) | <a href=""> <img src="img/" alt="Open In "></a> |
-
-
-## 5. The 🤗 Datasets library
-
-| Title | Description | Article | Notebook |
-|---------------------------------------|-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1. Transformers, what can they do? | Look at what Transformer models can do and use our first tool from the 🤗 Transformers library: the pipeline() function. | [Article](https://github.com/ANYANTUDRE/NLP-Course-Hugging-Face/blob/main/1.%20Transformer%20models/1.Transformers%2C%20what%20can%20they%20do_.md)| <a href="" alt="Open In "></a> |
-| 2. How do Transformers work? | High-level look at the architecture of Transformer models. | [Article](https://github.com/ANYANTUDRE/NLP-Course-Hugging-Face/blob/main/1.%20Transformer%20models/2.How%20do%20Transformers%20work_.md) | <a href="" alt="Open In "></a> |
-| 3. Encoder, Decoders, Encoder-Decoder models | Learn more about Encoder, Decoders, Encoder-Decoder models  | [Article](https://github.com/ANYANTUDRE/NLP-Course-Hugging-Face/blob/main/1.%20Transformer%20models/3.Encoder%2C%20Decoders%2C%20Encoder-Decoder%20models.md) | <a href=""> <img src="img/" alt="Open In "></a> |
-
-
-## 6. The 🤗 Tokenizers library
-
-| Title | Description | Article | Notebook |
-|---------------------------------------|-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1. Transformers, what can they do? | Look at what Transformer models can do and use our first tool from the 🤗 Transformers library: the pipeline() function. | [Article](https://github.com/ANYANTUDRE/NLP-Course-Hugging-Face/blob/main/1.%20Transformer%20models/1.Transformers%2C%20what%20can%20they%20do_.md)| <a href="" alt="Open In "></a> |
-| 2. How do Transformers work? | High-level look at the architecture of Transformer models. | [Article](https://github.com/ANYANTUDRE/NLP-Course-Hugging-Face/blob/main/1.%20Transformer%20models/2.How%20do%20Transformers%20work_.md) | <a href="" alt="Open In "></a> |
-| 3. Encoder, Decoders, Encoder-Decoder models | Learn more about Encoder, Decoders, Encoder-Decoder models  | [Article](https://github.com/ANYANTUDRE/NLP-Course-Hugging-Face/blob/main/1.%20Transformer%20models/3.Encoder%2C%20Decoders%2C%20Encoder-Decoder%20models.md) | <a href=""> <img src="img/" alt="Open In "></a> |
-
-
-## 7. Main NLP tasks
-
-| Title | Description | Article | Notebook |
-|---------------------------------------|-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1. Transformers, what can they do? | Look at what Transformer models can do and use our first tool from the 🤗 Transformers library: the pipeline() function. | [Article](https://github.com/ANYANTUDRE/NLP-Course-Hugging-Face/blob/main/1.%20Transformer%20models/1.Transformers%2C%20what%20can%20they%20do_.md)| <a href="" alt="Open In "></a> |
-| 2. How do Transformers work? | High-level look at the architecture of Transformer models. | [Article](https://github.com/ANYANTUDRE/NLP-Course-Hugging-Face/blob/main/1.%20Transformer%20models/2.How%20do%20Transformers%20work_.md) | <a href="" alt="Open In "></a> |
-| 3. Encoder, Decoders, Encoder-Decoder models | Learn more about Encoder, Decoders, Encoder-Decoder models  | [Article](https://github.com/ANYANTUDRE/NLP-Course-Hugging-Face/blob/main/1.%20Transformer%20models/3.Encoder%2C%20Decoders%2C%20Encoder-Decoder%20models.md) | <a href=""> <img src="img/" alt="Open In "></a> |
-
 
   
 ### 🛑 Disclaimer ❌: 
