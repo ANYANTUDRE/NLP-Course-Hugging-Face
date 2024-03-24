@@ -1,4 +1,15 @@
-# NLP Course - Hugging Face 🤗
+<div align="center">
+  <h1> NLP Course - Hugging Face 🤗</h1>
+  <p align="center">
+    🕸 <a href="https://www.linkedin.com/in/anyantudre">LinkedIn</a> • 
+    📙 <a href="https://www.kaggle.com/waalbannyantudre">Kaggle</a> • 
+    💻 <a href="https://anyantudre.medium.com/">Medium Blog</a> • 
+    🤗 <a href="https://huggingface.co/anyantudre">Hugging Face</a> • 
+  </p>
+</div>
+<br/>
+
+
 This repository contains a shorter version of the [**NLP Course on Hugging Face**](https://huggingface.co/learn/nlp-course/). It is not designed to replace the original one since I just compiled here the notes and code snippets that I think is more important to retain and get a fresh reminder.
 course will teach you about **Natural Language Processing (NLP)** using libraries from the **Hugging Face 🤗** ecosystem :
 -  **Transformers**, 
@@ -29,6 +40,14 @@ The 🤗 Transformers library was created to provide a single API through which 
 - **Simplicity:** Hardly any abstractions are made across the library. The “All in one file” is a core concept: a model’s forward pass is entirely defined in a single file, so that the code itself is understandable and hackable.
 
 # Course repository structure
+
+## Transformer models
+
+| Notebook | Description | Article | Notebook |
+|---------------------------------------|-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. Transformers, what can they do? | Look at what Transformer models can do and use our first tool from the 🤗 Transformers library: the pipeline() function. | [Article](https://github.com/ANYANTUDRE/NLP-Course-Hugging-Face/blob/main/1.%20Transformer%20models/1.Transformers%2C%20what%20can%20they%20do_.md)| <a href="" alt="Open In "></a> |
+| 2. How do Transformers work? | High-level look at the architecture of Transformer models. | [Article](https://github.com/ANYANTUDRE/NLP-Course-Hugging-Face/blob/main/1.%20Transformer%20models/2.How%20do%20Transformers%20work_.md) | <a href="" alt="Open In "></a> |
+| 3. Encoder, Decoders, Encoder-Decoder models | Learn more about Encoder, Decoders, Encoder-Decoder models  | [Article](https://github.com/ANYANTUDRE/NLP-Course-Hugging-Face/blob/main/1.%20Transformer%20models/3.Encoder%2C%20Decoders%2C%20Encoder-Decoder%20models.md) | <a href=""> <img src="img/" alt="Open In "></a> |
 
 
   
