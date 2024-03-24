@@ -112,4 +112,14 @@ If you're new to Transformers and Hugging Face, it would be best to refer to the
 The aim is to have a few notes from the course and the code snippets that seem most important to me to keep to hand in each part. Like a sort of cheat sheet to refresh your memory on the most important concepts to remember.
 If you've already taken the original course, or have some basic knowledge of Transformers, you'll no doubt find this useful as a quick refresher on the various concepts.
 
+### Original course:
 
+- **License:** The original course is released under the permissive [Apache 2 license](https://www.apache.org/licenses/LICENSE-2.0.html).
+- **Citation:**
+@misc{huggingfacecourse,
+  author = {Hugging Face},
+  title = {The Hugging Face Course, 2022},
+  howpublished = "\url{https://huggingface.co/course}",
+  year = {2022},
+  note = "[Online; accessed <today>]"
+}
