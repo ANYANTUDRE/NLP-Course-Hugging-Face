@@ -1,0 +1,16 @@
+I've always been fascinated by chatbots and how they interact with us (humans). 
+I remember that 2 years ago(I know it's not that far away), after taking some courses on Python programming language, I wanted to build my own chatbot and interact with it throught Telegram. 
+Did I manage to code this chatbot back then? No I simply didn't have the necessary skills to do it at that time. 
+I've even tried to use a framework called rasa but I didn't like it since it only helps to build Rules-based chatbots i.e., program predefined combinations of question-and-answer options. 
+So I simply abandoned the idea and turned to Webscrapping with Beautiful Soup and Selenium, which I was really interested too in at the moment.
+
+Nowadays, with all the hype behind Large Language Models (LLMs) like ChatGPT or Gemini, I 
+
+Natural Language Processing (NLP) is a field of linguistics and Machine Learning focused on understanding everything related to human language.
+
+Common NLP tasks:
+Classifying sentences and words: sentiment analysis, email spam detection, grammatical components and named entities identification...
+Generating text content: text auto-generation, filling masked words...
+Extracting an answer from a text: questions-answers.
+Generating a new sentence from an input text: translation, summurization...
+NLP also tackles complex challenges in speech recognition and computer vision (audio transcription, image description).
