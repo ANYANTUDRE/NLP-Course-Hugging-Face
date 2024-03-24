@@ -116,10 +116,11 @@ If you've already taken the original course, or have some basic knowledge of Tra
 
 - **License:** The original course is released under the permissive [Apache 2 license](https://www.apache.org/licenses/LICENSE-2.0.html).
 - **Citation:**
-@misc{huggingfacecourse,
+```@misc{huggingfacecourse,
   author = {Hugging Face},
   title = {The Hugging Face Course, 2022},
   howpublished = "\url{https://huggingface.co/course}",
   year = {2022},
   note = "[Online; accessed <today>]"
 }
+```
