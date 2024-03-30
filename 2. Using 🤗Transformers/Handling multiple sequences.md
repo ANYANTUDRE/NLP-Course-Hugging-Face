@@ -1,0 +1,41 @@
+# Handling multiple sequences
+In the previous section, we explored the simplest of use cases: doing inference on a single sequence of a small length. However, some questions emerge already:
+
+- How do we handle multiple sequences?
+- How do we handle multiple sequences of different lengths?
+- Are vocabulary indices the only inputs that allow a model to work well?
+- Is there such a thing as too long a sequence?
+Let’s see what kinds of problems these questions pose, and how we can solve them using the 🤗 Transformers API.
+
+## Models expect a batch of inputs
+
+In the previous exercise you saw how sequences get translated into lists of numbers. Let’s convert this list of numbers to a tensor and send it to the model:
+```python
+import tensorflow as tf
+from transformers import AutoTokenizer, TFAutoModelForSequenceClassification
+
+checkpoint = "distilbert-base-uncased-finetuned-sst-2-english"
+tokenizer = AutoTokenizer.from_pretrained(checkpoint)
+model = TFAutoModelForSequenceClassification.from_pretrained(checkpoint)
+
+sequence = "I've been waiting for a HuggingFace course my whole life."
+
+tokens = tokenizer.tokenize(sequence)
+ids = tokenizer.convert_tokens_to_ids(tokens)
+input_ids = tf.constant(ids)
+
+# This line will fail.
+model(input_ids)
+```
+
+Oh no! Why did this fail? “We followed the steps from the pipeline in section 2.
+
+The problem is that we sent a single sequence to the model, whereas 🤗 Transformers models expect multiple sentences by default. 
+Here we tried to do everything the tokenizer did behind the scenes when we applied it to a sequence. 
+But if you look closely, you’ll see that the tokenizer didn’t just convert the list of input IDs into a tensor, it added a dimension on top of it:
+
+```python
+tokenized_inputs = tokenizer(sequence, return_tensors="tf")
+print(tokenized_inputs["input_ids"])
+```
+
