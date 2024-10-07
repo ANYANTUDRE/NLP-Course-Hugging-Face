@@ -10,7 +10,7 @@
 <br/>
 
 
-This repository contains a shorter version of the [**NLP Course on Hugging Face**](https://huggingface.co/learn/nlp-course/). The aim is to have a few **notes from the course and the code snippets** that seem most important to keep handy in each section. **Think of it as a sort of "cheat sheet" to quickly explore the most important concepts in Transformers and Hugging Face ecosystem.** If you've already taken the original or similar course, or have some basic knowledge of Transformers, you'll undoubtly find this useful as a quick refresher on the various concepts.
+This repository contains an abridged version or, rather let's say, my **key takeaways** from the [**NLP Course on Hugging Face**](https://huggingface.co/learn/nlp-course/). The aim is to have a few **notes from the course and the code snippets** that seem most important to keep handy in each section. **Think of it as a sort of "cheat sheet" to quickly explore the most important concepts in Transformers and Hugging Face ecosystem.** If you've already taken the original or similar course, or have some basic knowledge of Transformers, you'll undoubtly find this useful as a quick refresher on the various concepts.
 
 The course covers **Natural Language Processing (NLP)** using libraries from the **Hugging Face 🤗** ecosystem :
 -  **Transformers**, 
